@@ -2,7 +2,11 @@
 
 Control an [SO-101](https://github.com/TheRobotStudio/SO-ARM100) with your own hand: Two cameras triangulate your wrist's real 3D position and your hand's orientation; that drives the arm's reach, wrist roll, wrist pitch, yaw, and gripper in real time.
 
-Uploading human-teleop.mp4…
+
+
+https://github.com/user-attachments/assets/e0366413-6b30-4b24-b7ff-88b8ff48513e
+
+
 
 ## Contents
 
