@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/e0366413-6b30-4b24-b7ff-88b8ff48513e
 
 This project has two halves:
 
-- **A calibration pipeline** (`calibration/`) that determines the transform between your two webcams, and allows to to choose record the forward and up directions, and the roll and pitch axes. This produces two JSON files (`calibration/data/stereo_calib.json`, `calibration/data/basis_vectors.json`) that everything else depends on.
+- **A calibration pipeline** (`calibration/`) that determines the transform between your two webcams, and allows you to record the forward and up directions, and the roll and pitch axes. This produces two JSON files (`calibration/data/stereo_calib.json`, `calibration/data/basis_vectors.json`) that everything else depends on.
 - **A live teleop loop** (`follow.py`) that uses that calibration to track your hand every frame and drive the robot.
 
 Calibration should be done any time your camera set up changes.
