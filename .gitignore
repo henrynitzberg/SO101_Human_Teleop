@@ -1,0 +1,7 @@
+lerobot/
+models/
+poses/
+venv/
+*__pycache__
+calibration/data/
+.env
