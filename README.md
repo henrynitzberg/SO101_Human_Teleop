@@ -63,7 +63,7 @@ SO101_PORT=/dev/tty.usbmodemXXXXXXXX
 SO101_ROBOT_ID=your_robot_id
 ```
 
-`lib/movement/robot_config.py` loads this at import time and raises immediately with a clear error if either variable is missing — every script that connects to the robot (`follow.py`, and everything in `getting_started/`) depends on it. `.env` is gitignored on purpose: your port and robot id are specific to your machine, not something to commit.
+`lib/movement/robot_config.py` loads this at import time and raises immediately with a clear error if either variable is missing — every script that connects to the robot (`follow.py`, and everything in `getting_started/`) depends on it.
 
 ## 2. Sanity-Check the Robot Connection
 
